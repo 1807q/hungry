@@ -1,7 +1,7 @@
 {
   "pages": [
+    "compontent/Mask/Mask",
     "pages/index/index",
-    "compontent/home-page/home-page",
     "pages/logs/logs"
   ],
   "window": {
