@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "homepage":"../../compontent/home-page/home-page"
+  }
+
 }
