@@ -1,0 +1,26 @@
+<view class="box">
+	<view class="header">
+    <view class="header_top">
+      <image src="../../img/3.jpg"></image>
+      <view>
+        <view>
+          <text>品牌</text>
+          <text>粥品香坊（大运村）</text>
+        </view>
+        <view>蜂鸟转送/38分钟送达</view>
+        <view>
+          <view>
+            <text>满</text>
+            <text>在线支付满28减5，满50减10</text>
+          </view>
+          <view>5个 ></view>
+        </view>
+      </view>
+    </view>
+    <view class="header_bottom">
+      <text>公告</text>
+      <view>周鹏夏光辉对付你额较为扣尾款冬季菲菲姐hthrhrrghtjtjtjt哥哥如果</view>
+      <text>></text>
+    </view>
+  </view>
+</view>
