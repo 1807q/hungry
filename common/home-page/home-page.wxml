@@ -1,0 +1,46 @@
+<view class="box">
+	<view class="header">
+    <view class="header_top">
+      <image src="../../img/3.jpg"></image>
+      <view>
+        <view>
+          <text>品牌</text>
+          <text>粥品香坊（大运村）</text>
+        </view>
+        <view>蜂鸟转送/38分钟送达</view>
+        <view>
+          <view>
+            <text>满</text>
+            <text>在线支付满28减5，满50减10</text>
+          </view>
+          <view>5个 ></view>
+        </view>
+      </view>
+    </view>
+    <view class="header_bottom">
+      <text>公告</text>
+      <view>周鹏夏光辉对付你额较为扣尾款冬季菲菲姐hthrhrrghtjtjtjt哥哥如果</view>
+      <text>></text>
+    </view>
+  </view>
+  <view class="logo">
+    <view wx:for="{{navbarTitle}}" wx:key="index" catchtap="onNavBarTap" data-navbar-index="{{index}}">{{item}}</view>
+  </view>
+  <view class="line" style="width:{{100/navbarTitle.length}}%;transform:translateX({{100*navbarActiveIndex}}%);"></view>
+  <view class="movie-container">
+
+  <view class="movie-content-wrapper">
+    <swiper current="{{navbarActiveIndex}}" bindchange="onBindAnimationFinish">
+
+ <!-- 这里可以自定义组件，我为了方便直接for的数据 -->
+<!-- 自定义组件 放在<scroll-view>里面代替 {{item}}  -->
+      <swiper-item  wx:for="{{navbarTitle}}" wx:key="index">
+        <scroll-view scroll-y="{{true}}">
+          {{item}}
+        </scroll-view>
+      </swiper-item>
+
+    </swiper>
+  </view>
+</view>
+</view>
