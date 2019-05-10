@@ -1,1 +1,57 @@
 <!--compontent/Mask/Mask.wxml-->
+<view class='Mask'>
+  <view class='header'>
+    <text>粥品香仿（大运村）</text>
+    <view>
+     <image src='../../img/star24_on@3x.png'></image>
+     <image src='../../img/star24_on@3x.png'></image>
+     <image src='../../img/star24_on@3x.png'></image>
+     <image src='../../img/star24_on@3x.png'></image>
+     <image src='../../img/star36_off@2x.png'></image>
+    </view>
+  </view>
+  <view class='conter'>
+    <view>
+      <text></text>
+       优惠信息
+      <text></text>
+    </view>
+    <view>
+      <view>
+        <image src='../../img/decrease_1@2x.png'></image>
+        <text>在线支付满28减5，满50减10</text>
+      </view>
+      <view>
+        <image src='../../img/discount_1@2x.png'></image>
+        <text>单人精彩赛</text>
+      </view>
+      <view>
+        <image src='../../img/discount_1@2x.png'></image>
+        <text>清肺雪梨汤8折抢购</text>
+      </view>
+      <view>
+        <image src='../../img/special_1@2x.png'></image>
+        <text>特价饮品八折抢购</text>
+      </view>
+      <view>
+        <image src='../../img/special_1@2x.png'></image>
+        <text>单人特色套餐</text>
+      </view>
+    </view>
+  </view>
+  <view class='conter1'>
+    <view>
+      <text></text>
+       商家公告
+      <text></text>
+    </view>
+    <view>
+      <view>
+        在线支付满28减5，满50减10撒诋毁阿萨德hi阿US好的一hiUSA大红就记啊就是点击  加速度计就阿萨德加速度几家的 安吉斯的 阿斯         加德阿斯加德自己家接收到就米啊啥鸡蛋加速度
+      </view>
+    </view>
+  </view>
+  <view class='conter2'>
+    <image src='../../img/1.png'></image>
+  </view>
+</view>
