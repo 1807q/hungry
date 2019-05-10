@@ -1,67 +1,67 @@
-.box{
-  width: 100%;
-}
-.header{
+.box {
+  width: 100%; }
+
+.header {
   width: 100%;
   height: 270rpx;
-  background:purple;
-}
-.header_top{
+  background: purple; }
+
+.header_top {
   width: 100%;
   height: 210rpx;
   /* background: yellow; */
   display: flex;
   padding: 30rpx 20rpx 30rpx 30rpx;
-  box-sizing: border-box; 
-  justify-content: space-between;
-}
-.header_top>image{
+  box-sizing: border-box;
+  justify-content: space-between; }
+
+.header_top > image {
   width: 155rpx;
-  height:100%;
-}
-.header_top>view{
+  height: 100%; }
+
+.header_top > view {
   width: 520rpx;
-  height:100%;
+  height: 100%;
   /* background: palegreen; */
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-}
-.header_top>view>view:nth-of-type(1){
-  font-weight: bold;
-}
-.header_top>view>view:nth-of-type(1)>text:nth-of-type(1){
+  justify-content: space-between; }
+
+.header_top > view > view:nth-of-type(1) {
+  font-weight: bold; }
+
+.header_top > view > view:nth-of-type(1) > text:nth-of-type(1) {
   padding: 5rpx 8rpx;
   font-size: 25rpx;
   background: #f81121;
-  margin-right: 10rpx;
-}
-.header_top>view>view:nth-of-type(1)>text:nth-of-type(2){
-  font-size: 35rpx;
-}
-  .header_top>view>view:nth-of-type(2){
-  font-size: 31rpx;
-}
-.header_top>view>view:nth-of-type(3){
- display: flex;
- align-items: center;
- font-size: 25rpx;
- justify-content: space-between;
- /* background: red; */
-}
-.header_top>view>view:nth-of-type(3)>view:nth-of-type(1)>text:nth-of-type(1){
+  margin-right: 10rpx; }
+
+.header_top > view > view:nth-of-type(1) > text:nth-of-type(2) {
+  font-size: 35rpx; }
+
+.header_top > view > view:nth-of-type(2) {
+  font-size: 31rpx; }
+
+.header_top > view > view:nth-of-type(3) {
+  display: flex;
+  align-items: center;
+  font-size: 25rpx;
+  justify-content: space-between;
+  /* background: red; */ }
+
+.header_top > view > view:nth-of-type(3) > view:nth-of-type(1) > text:nth-of-type(1) {
   color: red;
   background: white;
   padding: 3rpx 8rpx;
-  font-size: 23rpx;
-}
-.header_top>view>view:nth-of-type(3)>view:nth-of-type(2){
-  padding:15rpx 25rpx;
-  background: rgba(0,0,0,0.5);
-  border-radius: 50rpx;
-}
-.header_bottom{
+  font-size: 23rpx; }
+
+.header_top > view > view:nth-of-type(3) > view:nth-of-type(2) {
+  padding: 15rpx 25rpx;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50rpx; }
+
+.header_bottom {
   width: 100%;
   height: 60rpx;
   display: flex;
@@ -69,22 +69,69 @@
   box-sizing: border-box;
   font-size: 25rpx;
   color: white;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.4);
   align-items: center;
-  justify-content: space-between;
-}
-.header_bottom>text:nth-of-type(1){
+  justify-content: space-between; }
+
+.header_bottom > text:nth-of-type(1) {
   background: white;
   color: black;
   font-weight: bold;
   border-radius: 5rpx;
   width: 60rpx;
   text-align: center;
-  margin-right: 10rpx;
-}
-.header_bottom>view{
-  text-overflow:ellipsis;
-  white-space:nowrap;
-  overflow:hidden;
-  margin-right: 10rpx;
-}
+  margin-right: 10rpx; }
+
+.header_bottom > view {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-right: 10rpx; }
+
+.logo {
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  border-bottom: 1rpx solid #E2E3E5; }
+
+.logo > view {
+  width: 33.333333%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35rpx; }
+
+.movie-container {
+  display: flex;
+  flex-direction: column; }
+
+.navbar {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 500;
+  width: 100%;
+  height: 50px;
+  flex-direction: row;
+  text-align: center;
+  color: #A8A8A8;
+  font-size: 15px;
+  box-sizing: border-box;
+  background-color: #FFF;
+  border-bottom: 1rpx solid #DFDFDF; }
+
+.navbar-item {
+  flex: 1;
+  padding: 26rpx 0px; }
+
+.line {
+  height: 4rpx;
+  background: red;
+  transition: all .3s ease-out .1s; }
+
+.movie-content-wrapper {
+  padding-top: 50px; }
+
+/*# sourceMappingURL=home-page.wxss.map */

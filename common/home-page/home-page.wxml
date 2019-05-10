@@ -23,4 +23,24 @@
       <text>></text>
     </view>
   </view>
+  <view class="logo">
+    <view wx:for="{{navbarTitle}}" wx:key="index" catchtap="onNavBarTap" data-navbar-index="{{index}}">{{item}}</view>
+  </view>
+  <view class="line" style="width:{{100/navbarTitle.length}}%;transform:translateX({{100*navbarActiveIndex}}%);"></view>
+  <view class="movie-container">
+
+  <view class="movie-content-wrapper">
+    <swiper current="{{navbarActiveIndex}}" bindchange="onBindAnimationFinish">
+
+ <!-- 这里可以自定义组件，我为了方便直接for的数据 -->
+<!-- 自定义组件 放在<scroll-view>里面代替 {{item}}  -->
+      <swiper-item  wx:for="{{navbarTitle}}" wx:key="index">
+        <scroll-view scroll-y="{{true}}">
+          {{item}}
+        </scroll-view>
+      </swiper-item>
+
+    </swiper>
+  </view>
+</view>
 </view>

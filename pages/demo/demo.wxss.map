@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,CAAE;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU",
+"sources": ["../../../../%E5%AE%9E%E8%AE%AD%E4%BA%8C/elm/pages/demo/demo.scss"],
+"names": [],
+"file": "demo.wxss"
+}
